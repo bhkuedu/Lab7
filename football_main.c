@@ -1,5 +1,5 @@
-#include "football.h"
-#include <stdio.h>
+#include "football.h" // Include our football functions via header file
+#include <stdio.h> // Include I/O library, for use with scanf and printf
 
 // Main program logic.
 int main(int argc, char* argv[])
@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
         print_combinations(score); // Print combinations to user.
         printf("\n");
 
-        printf("Amount of combinations: %d \n\n", count_combinations(score));
+        // printf("Amount of combinations: %d \n\n", count_combinations(score));
     }
 
     return 0;

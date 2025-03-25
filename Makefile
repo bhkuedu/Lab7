@@ -1,4 +1,4 @@
-CC := gcc
+CC := gcc # base compiler
 
 # sourcefiles
 FOOTBALL_SOURCES := football.c football_main.c
